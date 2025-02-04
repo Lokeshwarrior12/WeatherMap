@@ -50,22 +50,11 @@ Once everything is set up, you can run the project with the following command:
 node weatherService.js
 This will connect to your MongoDB, fetch weather data, and save it to the database every 10 minutes.
 
-File Structure
-bash
-Copy
-Edit
-weather-service/
-├── .gitignore           # Ignored files (e.g., node_modules, .env)
-├── .env                 # Environment variables (API keys, DB URIs)
-├── weatherService.js    # Main script to fetch and save weather data
-├── package.json         # Project dependencies and scripts
-└── README.md            # This file
-
 ### Troubleshooting
 1. API Key Not Found: Ensure you've entered a valid OpenWeather API key in your .env file.
 2. MongoDB Connection Issue: Verify your MongoDB URI in the .env file.
 3. Permission Issues: Make sure you have permission to access MongoDB and GitHub if you're pushing to a remote repository.
 
 ### Contact
-For any questions or issues, feel free to reach out to me via GitHub.
+For any questions or issues, feel free to reach out to me via GitHub. https://github.com/Lokeshwarrior12
 
