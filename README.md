@@ -2,6 +2,8 @@
 # Weather Service
 
 This is a simple weather service that fetches weather data from the OpenWeather API, stores it in a MongoDB database, and logs the data every 10 minutes. The project uses Node.js, Mongoose, and Axios to handle the backend and external API calls.
+### Problem 
+https://gist.github.com/TheCodingCanal/1f4ba241ca0a7930544b20428efeab18
 
 ## Features
 
