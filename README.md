@@ -46,7 +46,7 @@ OPENWEATHER_API_KEY=your_openweather_api_key   # Your OpenWeather API key
 
 ### 4. Run the project
 Once everything is set up, you can run the project with the following command:
-
+node index.js
 node weatherService.js
 This will connect to your MongoDB, fetch weather data, and save it to the database every 10 minutes.
 
